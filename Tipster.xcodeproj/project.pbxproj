@@ -16,6 +16,7 @@
 		2FCC12B124A29A38005F6194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC12B024A29A38005F6194 /* main.m */; };
 		2FCC12BB24A29A38005F6194 /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC12BA24A29A38005F6194 /* TipsterTests.m */; };
 		2FCC12C624A29A38005F6194 /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC12C524A29A38005F6194 /* TipsterUITests.m */; };
+		2FCC12D524A2BE6F005F6194 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC12D424A2BE6F005F6194 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		2FCC12C124A29A38005F6194 /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCC12C524A29A38005F6194 /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		2FCC12C724A29A38005F6194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCC12D324A2BE6F005F6194 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2FCC12D424A2BE6F005F6194 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				2FCC12A424A29A37005F6194 /* ViewController.h */,
 				2FCC12A524A29A37005F6194 /* ViewController.m */,
 				2FCC12A724A29A37005F6194 /* Main.storyboard */,
+				2FCC12D324A2BE6F005F6194 /* SettingsViewController.h */,
+				2FCC12D424A2BE6F005F6194 /* SettingsViewController.m */,
 				2FCC12AA24A29A38005F6194 /* Assets.xcassets */,
 				2FCC12AC24A29A38005F6194 /* LaunchScreen.storyboard */,
 				2FCC12AF24A29A38005F6194 /* Info.plist */,
@@ -269,6 +274,7 @@
 			files = (
 				2FCC12A624A29A37005F6194 /* ViewController.m in Sources */,
 				2FCC12A024A29A37005F6194 /* AppDelegate.m in Sources */,
+				2FCC12D524A2BE6F005F6194 /* SettingsViewController.m in Sources */,
 				2FCC12B124A29A38005F6194 /* main.m in Sources */,
 				2FCC12A324A29A37005F6194 /* SceneDelegate.m in Sources */,
 			);

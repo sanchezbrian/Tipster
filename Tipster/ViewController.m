@@ -24,7 +24,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSInteger intValue = [defaults integerForKey:@"defaults_tip_percentage"];
+    
+    self.tipControl.selectedSegmentIndex = intValue;
+    
+    [_billField becomeFirstResponder];
+    
+    self.title = @"Tip Calculator";
+    
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"View Will Appear");
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSInteger intValue = [defaults integerForKey:@"defaults_tip_percentage"];
+    
+    self.tipControl.selectedSegmentIndex = intValue;
+    
+    [self onEdit:nil];
 }
 
 - (IBAction)onTap:(id)sender {
